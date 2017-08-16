@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity(),SensorEventListener{
             isRunning=true
             try{
                 var mp= MediaPlayer()
-                mp.setDataSource("http://server6.mp3quran.net/thubti/001.mp3")
+                mp.setDataSource("http://www.mfiles.co.uk/mp3-downloads/Toccata-and-Fugue-Dm.mp3")
                 mp.prepare()
                 mp.start()
 
